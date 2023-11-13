@@ -28,10 +28,6 @@ header{
 }
 
 /* MAIN */
-.main_content{
-    background-color: blue;
-}
-
 .img-content{
     width: 300px;
 }
@@ -88,6 +84,10 @@ section:nth-child(odd){
   .main-hr:before{
     width: 150px;
     background-color: #212529;
+  }
+
+  .about-hr{
+    margin: 0;
   }
 
 /* FOOTER */
