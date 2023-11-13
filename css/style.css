@@ -90,6 +90,11 @@ section:nth-child(odd){
     margin: 0;
   }
 
+  .text-input{
+    border: none;
+    border-bottom: grey 1px solid; 
+  }
+
 /* FOOTER */
 .footer_bg{
     background-color: #3a546d;
