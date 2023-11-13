@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <title>Bootstrap Freelancer</title>
@@ -13,11 +14,15 @@
             <div class="row">
                 <!-- TITOLO -->
                 <div class="col">
-                    <div class="header_content"></div>
+                    <div class="header_content d-flex align-items-center fs-4 text-white">
+                        START BOOTSTRAP
+                    </div>
                 </div>
                 <!-- MENÙ -->
                 <div class="col">
-                    <div class="header_content"></div>
+                    <div class="header_content d-flex justify-content-end align-items-center">
+                        <i class="fa-solid fa-bars fs-1 text-white"></i>
+                    </div>
                 </div>
             </div>
         </div>
@@ -26,10 +31,22 @@
     <main>
         <!-- JUMBOTRON -->
         <section>
-            <div class="container py-4">
+            <div class="container">
                 <div class="row">
                     <div class="col">
-                        <div class="main_content height_300"></div>
+                        <div class="main_content py-4 d-flex justify-content-center align-items-center flex-column text-white">
+                            <div class="img-content bg-purple">
+                                <img src="./img/avatar.svg" alt="Avatar">
+                            </div>
+                            
+                            <h1 class="mt-2 title">START BOOTSTRAP</h1>
+                            <h2 class="hr-lines"><i class="fas fa-star"></i></h2>
+                            <ul class="list-group list-group-horizontal list-unstyled fs-6">
+                                <li>GRAPHIC ARTIST -</li>
+                                <li class="mx-2">WEB DESIGN -</li>
+                                <li>ILLUSTRATOR</li>
+                              </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -78,7 +95,7 @@
                         <div class="main_content height_300 "></div>
                     </div>
                     <!-- TESTO [ABOUT] -->
-                    <div class="col-12 col-md-6 my-4">
+                    <div class="col-12 col-md-6 my-4"> 
                         <div class="main_content height_300 "></div>
                     </div>
                     <!-- PULSANTE [ABOUT] -->

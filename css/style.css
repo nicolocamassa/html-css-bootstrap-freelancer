@@ -16,8 +16,7 @@
 
 /* HEADER */
 .header_content{
-    background-color: red;
-    height: 50px;
+    height: 60px;
 }
 
 header{
@@ -29,10 +28,49 @@ header{
     background-color: blue;
 }
 
+.img-content{
+    width: 300px;
+}
+
+.title{
+    font-size: 35px;
+    font-weight: 600;
+}
+
 section:nth-child(odd){
     background-color: #1abc9c;
 }
 
+.hr-lines{
+    position: relative;
+    max-width: 500px;
+    margin: 30px 0;
+    text-align: center;
+  }
+  
+  .hr-lines:before{
+    content:" ";
+    height: 4px;
+    width: 70px;
+    background: white;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    border-radius: 100px;
+  }
+  
+  .hr-lines:after{
+    content:" ";
+    height: 4px;
+    width: 70px;
+    background: white;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 40px;
+    border-radius: 100px;
+  }
 
 /* FOOTER */
 .footer_bg{
